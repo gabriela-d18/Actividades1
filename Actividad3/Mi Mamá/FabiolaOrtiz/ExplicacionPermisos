@@ -1,0 +1,28 @@
+NIVELES DE PERMISO
+Todos los archivos y CARPETAS en Linux tienen tres niveles de permisos los cuales son:
+
+Usuario: Propietario del archivo, se representa con la letra U, es quien crea el archivo o directorio
+Grupo: Grupo propietario del archivo, se representa con la letra G, generalmente cada usuario pertenece al menos a un grupo de trabajo.
+Otros o Resto de usuarios, se representa con la letra O, aquí se agrupan al resto de usuarios o grupos con el cual el propietario no tiene ningún vínculo, es decir el resto de usuarios del sistema.
+TIPOS DE PERMISO
+En cada uno de los niveles de permisos se pueden asignar los siguientes permisos
+
+Lectura (r): En archivos Puede listar, copiar o visualizarlo. En Directorios pueden ver el contenido, se pueden listar a través del comando ls
+Escritura (w): En archivos significa que se puede modificar o borrar el contenido, incluso puede modificar los permisos. En Directorios significa que puede crear, eliminar archivos y directorios dentro de ese directorio.
+Ejecución (x): En archivos significa que se puede ejecutar el contenido. En Directorios significa que podemos entrar en la carpeta (comando cd).
+
+Permisos Archivo
+DE los 10 caracteres: drwxr-xr-x. El primer caracter representa el tipo de archivo. Los 3 siguientes los permisos de usuario, los 3 siguientes los 
+permisos de grupo y los 3 últimos los permisos para otros:
+El primer carácter es el tipo de archivos,es decir si  es:
+   – archivo
+  es un archivo.
+pero tambien pueden ser  Carpeta,tipo de archivos, los cuales pueden ser:
+d directorio
+  l enlace simbólico.
+  c dispositivo de caracteres.
+  b dispositivo de bloques.
+  p tubería.
+  s socket.
+Los siguientes nueves caracteres conforman el tipo de permiso que están atribuido, se representan en el siguiente orden lectura(r), escritura (w), ejecución(x).
+ Cuando se encuentra el carácter – indica que no tiene el permiso correspondiente al lugar.
